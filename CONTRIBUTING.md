@@ -29,8 +29,8 @@
 
 ## Prerequisites
 
-It is very important to understand the time and space complexity of the algorithms that we devise in order to write an efficient code. Please go through
-[this](https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/) and [this](https://github.com/KevinOfNeu/ebooks/blob/master/Grokking%20Algorithms.pdf) to get a clearer picture of the two.
+It is very important to understand the time and space complexity of the algorithms that we devise in order to write an efficient code. Please go through these examples
+[understanding time complexity](https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/) and [Grokking Algorithm](https://github.com/KevinOfNeu/ebooks/blob/master/Grokking%20Algorithms.pdf) to get a clearer picture of the two.
 
 
 **Make sure to go through the Contribution Guidelines before making any contribution to the project**
