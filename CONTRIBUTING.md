@@ -1,5 +1,5 @@
 # Points to be noted while writing a proposal
-1. The intution of the code which you are going to implement. If you feel there is a use of any specific Data structure and Algorithm or both do mention them 
+1. Mention the intution of the code which you are going to implement. If you feel there is a use of any specific Data structure and Algorithm or both, do mention them 
    so as to have a positive impact over other's proposal.
 2. Clearly mention the time complexity and space complexity of the code which you are going to implement.
 3. You have to write proposals for atleast two problems.
