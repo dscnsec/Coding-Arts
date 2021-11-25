@@ -6,7 +6,7 @@ a well structured and efficient solution comprising of various Data Structures a
 1. You can view the Problem Statements [here](https://github.com/dscnsec/DSA-Magic/blob/main/IDEA.md). 
 2. Visit [here](https://github.com/dscnsec/DSA-Magic/blob/main/CONTRIBUTING.md#points-to-be-noted-while-writing-a-proposal), if you want to make your proposal stand out from others.
 3. You can see the contributing guidelines [here](https://github.com/dscnsec/DSA-Magic/blob/main/CONTRIBUTING.md#getting-started).
-4. Once your proposal gets selected, you will be assigned a mentor who will guide you and checkout [here](https://github.com/dscnsec/Coding-Arts/blob/main/CHALLENGE.md#procedure-throughout-the-month) for more details.
+4. Once your proposal gets selected, you will be assigned a mentor who will guide you and checkout [here](https://github.com/dscnsec/Coding-Arts/blob/main/CHALLENGE.md#procedure-throughout-the-month) for further procedure.
 5. You can see the prerequisites [here](https://github.com/dscnsec/Coding-Arts/blob/main/CONTRIBUTING.md#prerequisites).
 
 ## Mentors
