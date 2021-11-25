@@ -1,7 +1,7 @@
 # Winter Of Code 2021 
 
 ## Winter of Code (WoC) projects related to Algorithms and Data Structures by GDSC-NSEC
-DSA Magic is a project proposed by GDSC NSEC. In DSA Magic, you have to deal with challenging real-world problems and propose 
+Coding-Arts is a project proposed by GDSC NSEC. In Coding-Arts, you have to deal with challenging real-world problems and propose 
 a well structured and efficient solution comprising of various Data Structures and Algorithms. 
 1. You can view the Problem Statements [here](https://github.com/dscnsec/DSA-Magic/blob/main/IDEA.md). 
 2. Visit [here](https://github.com/dscnsec/DSA-Magic/blob/main/CONTRIBUTING.md#points-to-be-noted-while-writing-a-proposal), if you want to make your proposal stand out from others.
