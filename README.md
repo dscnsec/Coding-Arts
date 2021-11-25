@@ -7,6 +7,7 @@ a well structured and efficient solution comprising of various Data Structures a
 2. Visit [here](https://github.com/dscnsec/DSA-Magic/blob/main/CONTRIBUTING.md#points-to-be-noted-while-writing-a-proposal), if you want to make your proposal stand out from others.
 3. You can see the contributing guidelines [here](https://github.com/dscnsec/DSA-Magic/blob/main/CONTRIBUTING.md#getting-started).
 4. Once your proposal gets selected, you will be assigned a mentor who will guide you.
+5. You can see the prerequisites [here](https://github.com/dscnsec/Coding-Arts/blob/main/CONTRIBUTING.md#prerequisites).
 
 
 ## Questions?
