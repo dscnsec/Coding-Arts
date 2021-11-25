@@ -9,6 +9,9 @@ a well structured and efficient solution comprising of various Data Structures a
 4. Once your proposal gets selected, you will be assigned a mentor who will guide you.
 5. You can see the prerequisites [here](https://github.com/dscnsec/Coding-Arts/blob/main/CONTRIBUTING.md#prerequisites).
 
+## Mentors
+Akash Kumar Bhagat, Soham Chakraborty, Shreya Seth, Sweta Seth
+
 
 ## Questions?
 1. For any queries while drafting a proposal, you can mail at dsamagic21@gmail.com
