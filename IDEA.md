@@ -1,6 +1,6 @@
-# DSA Magic
+# Coding-Arts
 
-Welcome to the official repository of DSA Magic, which is one of the projects participating in the Winter of Code 2021.
+Welcome to the official repository of Coding-Arts, which is one of the projects participating in the Winter of Code 2021.
 You have to make a proposal for atleast two of the below given Problem Statements.
 
 
