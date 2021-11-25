@@ -1,7 +1,7 @@
 # DSA Magic
 
 Welcome to the official repository of DSA Magic, which is one of the projects participating in the Winter of Code 2021.
-You have to make a proposal for atleast 2 of the below given Problem Statements.
+You have to make a proposal for atleast two of the below given Problem Statements.
 
 
 ## Problem Statements:
