@@ -10,5 +10,5 @@ a well structured and efficient solution comprising of various Data Structures a
 
 
 ## Questions?
-1. For any queries while drafting a proposal yopu can mail at dsamagic21@gmail.com
+1. For any queries while drafting a proposal, you can mail at dsamagic21@gmail.com
 2. More questions regarding WoC mentor or student? Check out the [WoC mentor & student guides](https://winterofcode.com/).
