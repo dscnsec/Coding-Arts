@@ -9,6 +9,9 @@ a well structured and efficient solution comprising of various Data Structures a
 4. Once your proposal gets selected, you will be assigned a mentor who will guide you and checkout [here](https://github.com/dscnsec/Coding-Arts/blob/main/CHALLENGE.md#procedure-throughout-the-month) for further procedure.
 5. You can see the prerequisites [here](https://github.com/dscnsec/Coding-Arts/blob/main/CONTRIBUTING.md#prerequisites).
 
+## Preffered Proposal Template
+Since many of you were facing problem in making proposal, so we have added a template [here](https://github.com/dscnsec/Coding-Arts/blob/main/TEMPLATE.md)
+
 ## Mentors
 Akash Kumar Bhagat, Shreya Seth, Shivani, Soham Chakraborty, Sweta Seth
 
