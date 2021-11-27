@@ -10,9 +10,9 @@ a well structured and efficient solution comprising of various Data Structures a
 5. You can see the prerequisites [here](https://github.com/dscnsec/Coding-Arts/blob/main/CONTRIBUTING.md#prerequisites).
 
 ## Preffered Proposal Template
-Since many of you were facing problem in making proposal, so we have added a template [here](https://github.com/dscnsec/Coding-Arts/blob/main/TEMPLATE.md).
+Since many of you were facing problem in making proposal, so we have provided a template [here](https://github.com/dscnsec/Coding-Arts/blob/main/TEMPLATE.md).
 
-Note: It is not mandatory to use the same template, its just for your reference.
+#### Note: It is not mandatory to use [this](https://github.com/dscnsec/Coding-Arts/blob/main/TEMPLATE.md) template, it is just for the reference.
 
 ## Mentors
 Akash Kumar Bhagat, Shreya Seth, Shivani, Soham Chakraborty, Sweta Seth
