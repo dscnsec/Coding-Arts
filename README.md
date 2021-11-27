@@ -11,6 +11,7 @@ a well structured and efficient solution comprising of various Data Structures a
 
 ## Preffered Proposal Template
 Since many of you were facing problem in making proposal, so we have added a template [here](https://github.com/dscnsec/Coding-Arts/blob/main/TEMPLATE.md).
+
 Note: It is not mandatory to use the same template, its just for your reference.
 
 ## Mentors
