@@ -58,6 +58,9 @@ If Karan wants to know how many followers B has you have to output the number an
      Alice 
      2
      Dabby Rose
+     Rose
+     2
+     Lily Tessy
 
 *3.* Kriti is a food lover and blogger. She loves to visit new food centers and blog about her experiences. She is also famous for her blogging in the city of 
 Jamshedpur. One day she decided to visit all the cafeterias(N) of the city and quote her experiences in the newspaper “Hindustan Times”. You are her guide for this 
