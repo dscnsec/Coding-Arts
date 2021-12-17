@@ -28,6 +28,29 @@ dishes until he follows back A’s account. You are assigned to do this task kee
 
 *Note:* A and B will be proper names like Alice, Carrie, Dabby, etc.
 
+## Sampe Test Case
+   ## Input
+     8 14
+     Carrie Dabby
+     Granna Tessy
+     Alice Bob
+     Lily Rose
+     Granna Dabby
+     Dabby Alice 
+     Dabby Bob
+     Alice Dabby
+     Rose Dabby
+     Rose Alice 
+     Tessy Rose 
+     Tessy Dabby
+     Dabby Tessy
+     Rose Granna
+   ## Output
+     You program should run for the number of times user wants now it depends on you how you implement this
+     Alice 
+     2
+     Dabby Rose
+
 *Input :*
 N - number of users
 M - number of connections
