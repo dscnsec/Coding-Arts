@@ -36,6 +36,28 @@ Karan will here ask you to output any of the user's followers. So be ready for i
 
 *Output :*
 If Karan wants to know how many followers B has you have to output the number and name of the users.
+## Sampe Test Case
+   ## Input
+     8 14
+     Carrie Dabby
+     Granna Tessy
+     Alice Bob
+     Lily Rose
+     Granna Dabby
+     Dabby Alice 
+     Dabby Bob
+     Alice Dabby
+     Rose Dabby
+     Rose Alice 
+     Tessy Rose 
+     Tessy Dabby
+     Dabby Tessy
+     Rose Granna
+   ## Output
+     You program should run for the number of times user wants now it depends on you how you implement this
+     Alice 
+     2
+     Dabby Rose
 
 *3.* Kriti is a food lover and blogger. She loves to visit new food centers and blog about her experiences. She is also famous for her blogging in the city of 
 Jamshedpur. One day she decided to visit all the cafeterias(N) of the city and quote her experiences in the newspaper “Hindustan Times”. You are her guide for this 
