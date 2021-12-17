@@ -81,7 +81,7 @@ You have to print the route i.e, cafeterias you are visiting sequentailly (start
 
  ## Input:
      3      // total number of cafeterias and consider cafe as numbers from 1,2,3... and home as number 0.
-     0 1 2  // distance from home(0) to cafe1 is 2 and so on...
+     0 1 2  // distance from home(0) to cafe 1 is 2 km and so on...
      0 2 3
      0 3 10
      1 2 4
@@ -90,7 +90,7 @@ You have to print the route i.e, cafeterias you are visiting sequentailly (start
 
  ## Output:
      0 0   // starting from home(0) so 0 0
-     1 2   // then visting cafe1 from home by covering a distance of 2km and so on....
+     1 2   // then visting cafe1 from home by covering a distance of 2 km and so on....
      2 4
      3 9
  
