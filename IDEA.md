@@ -36,7 +36,7 @@ Karan will here ask you to output any of the user's followers. So be ready for i
 
 *Output :*
 If Karan wants to know how many followers B has you have to output the number and name of the users.
-## Sampe Test Case
+## Sample testcase for problem statement 2 :
    ## Input
      8 14
      Carrie Dabby
@@ -77,7 +77,7 @@ cafe1 cafe2 dist12 - Distance dist12 between cafeteria 1 and cafeteria 2 and so 
 *Output :*
 You have to print the route i.e, cafeterias you are visiting sequentailly (starting from your home).
 
-## Sample testcase for problem statement 3:
+## Sample testcase for problem statement 3 :
 
  ## Input:
      3      // total number of cafeterias and consider cafe as numbers from 1,2,3... and home as number 0.
