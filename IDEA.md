@@ -79,7 +79,7 @@ You have to print the route i.e, cafeterias you are visiting sequentailly (start
 
 ## Sample testcase for problem statement 3:
 
-     Input:
+ ## Input:
      3      // total number of cafeterias and consider cafe as numbers from 1,2,3... and home as number 0.
      0 1 2  // distance from home(0) to cafe1 is 2 and so on...
      0 2 3
@@ -88,7 +88,7 @@ You have to print the route i.e, cafeterias you are visiting sequentailly (start
      1 3 5
      2 3 20
 
-     Output:
+ ## Output:
      0 0   // starting from home(0) so 0 0
      1 2   // then visting cafe1 from home by covering a distance of 2km and so on....
      2 4
