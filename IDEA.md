@@ -50,6 +50,9 @@ dishes until he follows back A’s account. You are assigned to do this task kee
      Alice 
      2
      Dabby Rose
+     Rose
+     2
+     Lily Tessy
 
 *Input :*
 N - number of users
