@@ -17,10 +17,48 @@ Can you help Ritu find her special box filled with chocolates?
 *NB:* (n+m) will always be odd.
 
 *Input :*
+n - number of boxes in pile A
+m - number of boxes in pile B
 You will be given the weights present in both piles A and B.
 
 *Output :*
 Output the weight of the box containing chocolates.
+
+## Sample testcase for problem statement 1 :
+
+## Input 1
+
+     6 //n
+     1 3 4 7 10 12 //pile A
+     7 //m
+     2 3 6 15 18 //pile B
+
+## Output 1
+
+     6
+
+## Input 2
+
+     4 //n
+     7 70 500 800 //pile A
+     3 //m
+     5 50 550 //pile B
+
+## Output 2
+
+     70
+
+## Input 2
+
+     5 //n
+     330 439 551 762 950 //pile A
+     4 //m
+     800 1250 1400 1450//pile B
+
+## Output 2
+
+     800
+     
 
 *2.* Karan along with his friends is developing an application where a user can upload their cooking recipes. Now Karan wants that if user A likes
 another user B’s dishes then A can follow B’s account to know all his unique dishes and styles. But the restriction is that B won’t be able to see A’s 
