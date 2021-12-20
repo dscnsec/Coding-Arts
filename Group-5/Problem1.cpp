@@ -21,28 +21,31 @@ int32_t main()
        cin>>pile_B[j];
    }
 
-   int i=0,j=0;
-   int arr[n+m];
-
-   while(i<n && j<m)
+   int i=0,j=0,count=(n+m)/2+1,ans=0;
+   while(count--)
    {
-       if(pile_A[i]>=pile_B[j])
-       arr[i+j]=pile_B[j++];
-       else
-       arr[i+j]=pile_A[i++];
-       
+        if(i<n && j<m)
+        {
+            if(pile_A[i]>pile_B[j])
+            {
+                ans=pile_B[j];
+                j++;
+            }
+            else
+            {
+                ans=pile_A[i];
+                i++;
+            }
+        }
+        else
+        {
+            if(i>=n)
+            ans=pile_B[j++];
+            else
+            ans=pile_A[i++];
+        }
    }
 
-   while(i<n)
-   {
-       arr[m+i]=pile_A[i++];
-   }
-   while(j<m)
-   {
-        arr[n+j]=pile_B[j++];
-   }
-    
-    cout<<arr[(n+m)/2+1]<<endl;
-
+   cout<<ans<<endl;
     return 0;
 }
