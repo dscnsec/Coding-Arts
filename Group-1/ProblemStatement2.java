@@ -1,3 +1,6 @@
+//Time complexity is n+m.
+//n=Number of users.
+//m=number of connections.
 import java.util.*;
 
 class application{
