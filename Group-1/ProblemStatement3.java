@@ -1,7 +1,7 @@
 //Time complexity=n^3,
 //n is the number of cafeterias.
 import java.util.*;
-class blogging {
+class ProblemStatement3 {
 
     void floydWarshall(int graph[][],int V)
     {
@@ -95,7 +95,7 @@ class blogging {
             }
         }
 
-        blogging z=new blogging();
+       ProblemStatement3 z=new ProblemStatement3();
         z.floydWarshall(A,n+1);
 
 
