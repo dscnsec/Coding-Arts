@@ -1,5 +1,6 @@
+//Time complexity=n^3,
+//n is the number of cafeterias.
 import java.util.*;
-
 class blogging {
 
     void floydWarshall(int graph[][],int V)
