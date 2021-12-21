@@ -3,7 +3,7 @@
 //m=number of connections.
 import java.util.*;
 
-class application{
+class ProblemStatement2{
 
     static Map<String, ArrayList<String>> hashMap = new HashMap<String, ArrayList<String>>();
     public static void main(String... arg) {
