@@ -7,16 +7,16 @@ typedef long long ll;
 
 void solve(int tc = 0) {	
 	// number of boxes in each pile
-	int m;
-	cin >> m;
-
-	vector<int> a(m);
-	for (int &x : a) cin >> x;
-	
 	int n;
 	cin >> n;
+
+	vector<int> a(n);
+	for (int &x : a) cin >> x;
 	
-	vector<int> b(n);
+	int m;
+	cin >> m;
+	
+	vector<int> b(m);
 	for (int &x : b) cin >> x;
   
 	// current idx of pile A
@@ -30,7 +30,7 @@ void solve(int tc = 0) {
 	
 	// finding median
 	for(int i = 0; i < (m + n) / 2 + 1; i++) {
-		if (k != m && l != n)
+		if (k != n && l != m)
 			ans = (a[k] > b[l] ? b[l++] : a[k++]);
 		else if (k < n)
 			ans = a[k++];
