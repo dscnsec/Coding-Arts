@@ -131,13 +131,10 @@ You have to print the route i.e, cafeterias you are visiting sequentailly (start
      1 2   // then visting cafe1 from home by covering a distance of 2 km and so on....
      2 4
      3 9
-4. In the city of joy kolkata, riya and her friends stay in different buildings 
-each building has a unique number which is called building code,buildings are situated 
-in a certain manner that if a building with its building code is situated at certain position then 
-Its neighbouring buildings in the forward direction will be at most 2 and in the backward direction 1 .
-.You have to help Riya to find no of turns(building codes that come along her way ) 
-if she wants to go from one friend's house (building code n)to the other(building code m)
-if she moves in a straight line i.e. she does not take any turns, then print output -1.
+*3.* In the city of joy kolkata, riya and her friends stay in different buildings each building has a unique number which is called building code,buildings are situated 
+in a certain manner that if a building with its building code is situated at certain position then it's neighbouring buildings in the forward direction will be at most 
+2 and in the backward direction 1. You have to help Riya to find no of turns(building codes that come along her way) if she wants to go from one friend's house (building
+code n) to the other(building code m) if she moves in a straight line i.e. she does not take any turns, then print output -1.
 
 *Input :*
  input 1: Number of buildings x.
