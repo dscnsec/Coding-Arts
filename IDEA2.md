@@ -36,9 +36,13 @@ Karan is thankful to you for helping him. Now karan wants to add a feature of su
 
 ### *Input Pattern:*
 n - number of users
+
 m - number of connections
+
 m lines follows A B ie A is following B
+
 x - number of new connections
+
 x lines follows C D i.e, C's request to follow D
 
 ### *Output Pattern:*
