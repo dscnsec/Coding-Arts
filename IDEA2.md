@@ -30,9 +30,7 @@ code n) to the other(building code m) if she moves in a straight line i.e. she d
       
 ## Problem Statement 5:
 
-Karan is thankful to you for helping him. Now karan wants to add a feature of suggestion but initially he wants to implement it 
-in a simpler way. The requirements are if A wants to follow B's account then in the suggesstion you have to output those users 
-who follows B but not A and vice versa
+Karan is thankful to you for helping him. Now karan wants to add a feature of suggestion but initially he wants to implement it in a simpler way. The requirements are if A wants to follow B's account then in the suggesstion you have to output those users who follows B but not A and vice versa.
 
 ### *Input Pattern:*
 n - number of users
@@ -49,4 +47,28 @@ x lines each line containing the names of users who follows D but not C.
   ### Input:
     
    ### output 
+   
+   
+## Problem Statement 6:
+
+Kriti's guide is thankful to you and now he is on his new tour plan. The guide is planning to visit some cities and explore more about his interest of travelling and guiding. But here comes a problem before him and he wants you to solve it. The problem is, he have to follow a map given by the experienced traveller. According to the map, if you want to visit city X then earlier to that you must visit city Y, then only you can visit city X and similar to this, there are restrictions for some other cities too. Now the guide is confused from where to start and how to visit the cities, so that he could visit all the cities. So, you need to provide a path in the order which will help the guide to achieve his goal. It may happen that there is no such path which will help the guide to visit all cities.
+
+### *Input Pattern:*
+totalCities - Total Number of cities in the map
+cityX,cityY - CityY must be visited prior to cityX
+          .......
+
+### *Output Pattern:*
+cityY cityX ..... // the order in whcih guide is going to visit the cities
+
+
+### Sample testcase for problem statement 5 :
+
+  ### Input: 
+      2
+      Kolkata Durgapur
+   ### output    
+      Durgapur Kolkata
+   
+   
       
