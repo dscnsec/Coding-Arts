@@ -9,7 +9,9 @@ code n) to the other(building code m) if she moves in a straight line i.e. she d
 
 ### *Input Pattern:*
  input 1: Number of buildings x.
+ 
  input 2: input x building codes in the above mentioned pattern.
+ 
  input 3: n(the building code from where she starts ),m( building code where she will stop)
  
  ### *Output Pattern:*
@@ -60,7 +62,7 @@ cityX,cityY - CityY must be visited prior to cityX
 .......
 
 ### *Output Pattern:*
-cityY cityX ..... // the order in whcih guide is going to visit the cities
+cityY cityX ..... // the order in which guide is going to visit the cities
 
 
 ### Sample testcase for problem statement 5 :
