@@ -55,8 +55,9 @@ Kriti's guide is thankful to you and now he is on his new tour plan. The guide i
 
 ### *Input Pattern:*
 totalCities - Total Number of cities in the map
+
 cityX,cityY - CityY must be visited prior to cityX
-          .......
+.......
 
 ### *Output Pattern:*
 cityY cityX ..... // the order in whcih guide is going to visit the cities
@@ -67,6 +68,7 @@ cityY cityX ..... // the order in whcih guide is going to visit the cities
   ### Input: 
       2
       Kolkata Durgapur
+     
    ### output    
       Durgapur Kolkata
    
