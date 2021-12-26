@@ -7,6 +7,9 @@ in a certain manner that if a building with its building code is situated at cer
 2 and in the backward direction 1. You have to help Riya to find no of turns(building codes that come along her way) if she wants to go from one friend's house (building
 code n) to the other(building code m) if she moves in a straight line i.e. she does not take any turns, then print output -1.
 
+![woc4](https://user-images.githubusercontent.com/61093320/147410632-800d7e4a-371c-4029-8574-83acbc16564e.png)
+
+
 ### *Input Pattern:*
  input 1: Number of buildings x.
  
