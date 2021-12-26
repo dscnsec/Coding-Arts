@@ -3,6 +3,8 @@
 Welcome to the official repository of Coding-Arts, which is one of the projects participating in the Winter of Code 2021.
 You have to make a proposal for atleast two of the below given Problem Statements.
 
+# PHASE 1 Questions
+
 
 ## Problem Statements:
 
@@ -131,5 +133,7 @@ You have to print the route i.e, cafeterias you are visiting sequentailly (start
      1 2   // then visting cafe1 from home by covering a distance of 2 km and so on....
      2 4
      3 9
- 
+
+
+#  [PHASE 2 Questions](https://github.com/dscnsec/Coding-Arts/blob/main/IDEA2.md) 
 #  [Contributing Guidelines](https://github.com/dscnsec/DSA-Magic/blob/main/CONTRIBUTING.md)
