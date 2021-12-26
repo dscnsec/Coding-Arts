@@ -35,7 +35,7 @@ code n) to the other(building code m) if she moves in a straight line i.e. she d
       
 ## Problem Statement 5:
 
-Karan is thankful to you for helping him. Now karan wants to add a feature of suggestion but initially he wants to implement it in a simpler way. The requirements are if A wants to follow B's account then in the suggesstion you have to output those users who follows B but not A and vice versa.
+Karan is thankful to you for helping him. Now karan wants to add a feature of suggestion but initially he wants to implement it in a simpler way. The requirements are if A wants to follow B's account then in the suggesstion you have to output those users who follows B but are not followed by A.
 
 ### *Input Pattern:*
 n - number of users
