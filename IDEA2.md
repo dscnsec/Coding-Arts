@@ -54,8 +54,27 @@ x lines each line containing the names of users who follows D but not C.
 ### Sample testcase for problem statement 5 :
 
   ### Input:
-    
-   ### output 
+    8 13
+    Carrie Dabby
+    Granna Tessy
+    Alice Bob
+    Lily Rose
+    Granna Dabby
+    Dabby Alice
+    Dabby Bob
+    Alice Dabby
+    Rose Alice
+    Tessy Rose
+    Tessy Dabby
+    Dabby Tessy
+    Rose Granna
+    2
+    Dabby Granna 
+    Tessy Alice
+
+  ### output
+    Rose
+    Rose
    
    
 ## Problem Statement 6:
