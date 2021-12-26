@@ -72,7 +72,7 @@ cityX,cityY - CityY must be visited prior to cityX
 cityY cityX ..... // the order in which guide is going to visit the cities
 
 
-### Sample testcase for problem statement 5 :
+### Sample testcase for problem statement 6 :
 
   ### Input: 
       2
