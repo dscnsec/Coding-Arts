@@ -74,7 +74,7 @@ x lines each line containing the names of users who follows D but not C.
 
   ### output
     Rose
-    Rose
+    0
    
    
 ## Problem Statement 6:
