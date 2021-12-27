@@ -25,7 +25,7 @@ code n) to the other(building code m) if she moves in a straight line i.e. she d
 
 
   ### Input:
-      Input 1: 1 2 3 4 5 6 7 8 N N N 9 10 N 
+      Input 1: 1 2 3 4 5 6 7 8 N N N 9 10 N N
       Input 2: 5 10
       
 
