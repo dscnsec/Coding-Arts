@@ -11,26 +11,26 @@ code n) to the other(building code m) if she moves in a straight line i.e. she d
 
 
 ### *Input Pattern:*
- input 1: Number of buildings x.
+ input 1: string representing the tree ( the values in the string are in the order of level order traversal of the tree where , numbers denote node values , and
+ a character "N" denotes NULL child.
  
- input 2: input x building codes in the above mentioned pattern.
+ input 2: space separated data values n and m  of 2 nodes.
  
- input 3: n(the building code from where she starts ),m( building code where she will stop)
  
  ### *Output Pattern:*
   no. of turns (building codes from n to m that come while she was taking turns)
-  -1 if riya did not tookany turn.
+  -1 if riya did not took any turn.
 
 ### Sample testcase for problem statement 4 :
 
 
   ### Input:
-      Input 1: 11
-      Input 2: 1 2 3 4 5 6 7 8 9 10 11
-      Input 3: 5 11
+      Input 1: 1 2 3 4 5 6 7 8 N N N 9 10 N 
+      Input 2: 5 11
+      
 
    ### Output 
-      2 1 3 6
+      4 
       
       
 ## Problem Statement 5:
