@@ -3,11 +3,11 @@
        'E' be the number of prerequisite connections (accepted as input starting from second line of input)
     
    Time Complexity: O(V+E) -> owing to the use of topological sort.
-   Space Complexity: O(V*V) -> worst case space requirement for storing all the nodes and their adjacent nodes.
+   Space Complexity: O(V+E) -> space requirement for storing the locations(V) and number of edges/prerequisite (E). 
                      O(V) -> auxiliary space to store indegree of each nodes
                      O(V) -> to store the nodes in the order they are finally visited
                      O(V) -> auxiliary space to store visited nodes while performing topological sort 
-                     Therefore, the overall Space Complexity is O(V*V)
+                     Therefore, the overall Space Complexity is O(V+E)
 */
 
 #include <bits/stdc++.h>
