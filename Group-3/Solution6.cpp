@@ -8,6 +8,8 @@
                      O(V) -> to store the nodes in the order they are finally visited
                      O(V) -> auxiliary space to store visited nodes while performing topological sort 
                      Therefore, the overall Space Complexity is O(V+E)
+                     
+Note - Space Complexity would be O((V+E)*|S|), if we consider that using string as key/value also takes some space equal to length of string.                      
 */
 
 #include <bits/stdc++.h>
