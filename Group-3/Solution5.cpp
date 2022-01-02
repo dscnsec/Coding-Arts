@@ -2,7 +2,10 @@
     O(no_of_new_connections * no_of_users) = O(X*N) to answer the queries.
 Total time Complexity = O(X*N) 
 Here N-no_of_users X number_of_new_connections_input
-Space Complexity - O(N^2)  (space required to store users and their folllowers). Here N is No.of Users. */
+Space Complexity - O(N+M)  (space required to store users and their folllowers). Here N is No.of Users and M are no.of connections. 
+
+Note - Space complexity would be O((N+M)*|S|), if we consider that using string as a key takes space too.
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
