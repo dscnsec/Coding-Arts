@@ -49,26 +49,9 @@ m - number of students in trio race
      171 175
   
       
-      
-## Problem Statement 8:
-
-
-### *Input Pattern:*
-
-
-### *Output Pattern:*
-
-
-### Sample testcase for problem statement 8 :
-
-  ### Input:
   
-
-  ### output
-
    
-   
-## Problem Statement 9:
+## Problem Statement 8:
 Isha shared her songs playlist to her friend Dipti.
 There are n songs in that playlist, such that only next songs
 will be played by clicking on next button as next song is linked with current song
@@ -95,7 +78,7 @@ Total n space seprated integers representing songs.
 
 ### output pattern 
 space seprated integer of reordered playslist 
-### Sample testcase for problem statement 9 :
+### Sample testcase for problem statement 8 :
 
   ### Input1: 
   6
