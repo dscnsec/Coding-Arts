@@ -87,16 +87,25 @@ will be played by clicking on next button as next song is linked with current so
  
  (Note:-Data structure used will be linked list , You must do this in-place without
  altering the node's values)
+### input pattern 
+### line 1:
+Number of songs n ( n>=1 )
+### line 2:
+Total n space seprated integers representing songs. 
 
-
+### output pattern 
+space seprated integer of reordered playslist 
 ### Sample testcase for problem statement 9 :
 
-  ### Input1: 1 2 3 4 5 6
+  ### Input1: 
+  6
+  1 2 3 4 5 6
     
-     
-   ### output1 : 1 6 2 5 3 4
+  ### output1 : 1 6 2 5 3 4
    
-   ### Input2: 1 2 3 
+   ### Input2:
+   3
+   1 2 3 
    
    ### output2: 1 3 2 
     
