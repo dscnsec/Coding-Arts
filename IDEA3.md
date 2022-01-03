@@ -89,7 +89,7 @@ space seprated integer of reordered playslist
 
 ## Output 1
 
-      1 6 2 5 3 4
+     1 6 2 5 3 4
 
 ## Input 2
 
