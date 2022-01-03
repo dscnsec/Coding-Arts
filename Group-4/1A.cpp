@@ -1,18 +1,21 @@
+// Complexity Analysis
+// Time Complexity: O(n + m)
+// Sapce Complexity: O(n + m)
+
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-#define int long long int
-#define endl "\n"
-
 void solve(int tc = 0) {
-    // number of boxes in each pile
+    // number of boxes in pile A
     int n;
     cin >> n;
 
     vector<int> a(n);
-    for (int &x : a) cin >> x;
+    for(auto &x : a) {
+			cin >> x;
+		}
 
+		// number of boxes in pile B
     int m;
     cin >> m;
 
@@ -38,11 +41,11 @@ void solve(int tc = 0) {
             ans = b[l++];
     }
 
-    / / printing the answer
+    // printing the answer
     cout << ans << endl;
 }
 
-signed main() {
+int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
