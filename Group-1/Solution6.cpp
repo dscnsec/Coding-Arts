@@ -5,11 +5,13 @@ O(V+E)- topological Sorting is used. Here,
 - V= Total number of cities.
 - E= Number of prior connections.
 **Space complexity-
-O(n)-Space used to store the nodes of the graph in stack
+O(V+E)-Space used to store the nodes of the graph in stack
+V and E are same as mentioned above.
 **Approach-
 1.Build a graph for a given connections.
 2.Sort the graph using Topological Sorting Technique.
 */
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll int
