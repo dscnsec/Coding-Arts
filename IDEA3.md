@@ -69,21 +69,36 @@ m - number of students in trio race
    
    
 ## Problem Statement 9:
-
-
-### *Input Pattern:*
-
-
-### *Output Pattern:*
-
+Isha shared her songs playlist to her friend Dipti.
+There are n songs in that playlist, such that only next songs
+will be played by clicking on next button as next song is linked with current song
+(note:- previous button does not exist i.e, previous songs can't be played)
+ eg:- song(1)->song(2)>song(3)->....->song(n-1)->song(n) if this is isha's song playlist
+ then songs will be played in this order song(1), song(2), song(3) upto song(n).
+ 
+ But, Dipti didn't like the order and decided to change the order.
+ New order will be such that songs will be played equidistant from front and end,
+ song(1) is played then on clicking next button, song(n) will be played
+ then song(2) is played then song(n-1) will be played.
+ New order of the playlist will be,
+ song(1)->song(n)->song(2)->song(n-1)-song(3)-song(n-2)...
+ Playlist will always start with song(1).
+ your task is to help Dipti in reordering the playlist.
+ 
+ (Note:-Data structure used will be linked list , You must do this in-place without
+ altering the node's values)
 
 
 ### Sample testcase for problem statement 9 :
 
-  ### Input: 
+  ### Input1: 1 2 3 4 5 6
     
      
-   ### output    
+   ### output1 : 1 6 2 5 3 4
+   
+   ### Input2: 1 2 3 
+   
+   ### output2: 1 3 2 
     
    
    
