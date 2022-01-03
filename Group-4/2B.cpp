@@ -42,13 +42,20 @@ void solve() {
 		string d;
 		cin >> d;	
 
+		vector<string> ans;
 		for(auto& s: mp[d]) {
-			if(!mp[c].count(s)) {
-				cout << s << " ";
+			if(!mp[s].count(c)) {
+				ans.emplace_back(s);
 			}
 		}
-
-		cout << '\n';
+		if(ans.size() == 0) {
+			cout << "0\n";
+		} else {
+			for(auto& s: ans) {
+				cout << s << " ";
+			}
+			cout << '\n';
+		}
 	}
 }
 
