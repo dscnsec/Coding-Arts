@@ -10,7 +10,7 @@
  Approach-
  1.Store the name of the users and their followers(in ArrayList) in the HashMap.
  2.Add new connections as well(Check for the primary key violation).
- 3.Find the suggestions. If no suggestions fund than 0 is printed.
+ 3.Find the suggestions. If no suggestions found than 0 is printed.
  */
 
 import java.util.*;//including util package for taking canner inputs 
