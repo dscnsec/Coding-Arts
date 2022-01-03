@@ -78,20 +78,27 @@ Total n space seprated integers representing songs.
 
 ### output pattern 
 space seprated integer of reordered playslist 
+
+
 ### Sample testcase for problem statement 8 :
 
-  ### Input1: 
-  6
-  1 2 3 4 5 6
-    
-  ### output1 : 1 6 2 5 3 4
-   
-   ### Input2:
-   3
-   1 2 3 
-   
-   ### output2: 1 3 2 
-    
-   
-   
-      
+## Input 1
+
+     6
+     1 2 3 4 5 6
+
+## Output 1
+
+      1 6 2 5 3 4
+
+## Input 2
+
+    3
+    1 2 3
+
+
+## Output 2
+
+     1 3 2 
+
+
