@@ -6,7 +6,7 @@ O(V+E)- topological Sorting is used. Here,
 - E= Number of prior connections.
 **Space complexity-
 O(V+E)-Space used to store the nodes of the graph in stack
-V and E as mentioned above
+V and E are same as mentioned above.
 **Approach-
 1.Build a graph for a given connections.
 2.Sort the graph using Topological Sorting Technique.
