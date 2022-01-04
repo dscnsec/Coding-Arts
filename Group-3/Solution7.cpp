@@ -45,6 +45,6 @@ int main()
 }
 
 /*
-Time Complexity - O(N) + O(N) = O(N)
+Time Complexity - O(N+M) ,where N is duo and M is trio students respectively.
 Space Complexity - O(1) + O(1) = O(1)
 */
