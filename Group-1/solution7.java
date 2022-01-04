@@ -1,7 +1,9 @@
 
 /*
- Time Complexity = O(n+m), where n is number of duo students and m is number of trio students.
- Space Complexity =  O(1) + O(1) = O(1), no extra space is required
+Approach-
+-finding non duplicate numbers
+Time Complexity = O(n+m), where n is number of duo students and m is number of trio students.
+Space Complexity =  O(1) + O(1) = O(1), no extra space is required
 */
 
 import java.util.Scanner;
