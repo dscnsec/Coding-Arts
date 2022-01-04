@@ -1,12 +1,13 @@
 
 /*
+Approach-
+-First and last songs are printed and they are removed so that in a second iteration 2nd song becomes first and last second song becomes last song.
 Time Complexity = O(n)
 Space Complexity = O(1), no extra space is required
  */
-
-import java.util.*;
-public class SinglyLinkedList {
-    //Represent a node of the singly linked list
+import java.util.*;//including util package to take scanner input
+ public class SinglyLinkedList {
+//Represent a node of the singly linked list
     static class Node
     {
         int data;
@@ -28,8 +29,8 @@ public class SinglyLinkedList {
             //If list is empty, both head and tail will point to new node
             head = newNode;
             tail = newNode;
-        }
-        else {
+     }
+     else {
             //newNode will be added after tail such that tail's next will point to newNode
             tail.next = newNode;
             //newNode will become new tail of the list
@@ -42,14 +43,12 @@ public class SinglyLinkedList {
         int count=0;
         //Node current will point to head
         Node current = head;
-
         if(head == null) {
             System.out.println("List is empty");
             return;
         }
-
         while(current != null) {
-            count++;
+           count++;
             //printing the first and last song from the playlist
             if(count==1||count==n) {
                 System.out.print(current.data + " ");
@@ -62,7 +61,6 @@ public class SinglyLinkedList {
         count=0;
     }
     public void removelast() {
-
         if(head==null)
             return;
         if(head.next==null)
@@ -70,15 +68,12 @@ public class SinglyLinkedList {
             return;
         }
         Node sec=head;
-
         while(sec.next.next!=null)
         {
 
             sec=sec.next;
         }
         sec.next=null;
-
-
     }
     public void removefirst()
     {
@@ -88,10 +83,8 @@ public class SinglyLinkedList {
             this.head=this.head.next;
             temp=null;
         }
-
     }
     public static void main(String[] args) {
-
         SinglyLinkedList sList = new SinglyLinkedList();
         Scanner sc=new Scanner(System.in);
         int number_of_songs=sc.nextInt();
@@ -101,7 +94,6 @@ public class SinglyLinkedList {
         {
             data=sc.nextInt();
             sList.addNode(data);
-
         }
         int a=0;
         int iteration;
@@ -118,5 +110,5 @@ public class SinglyLinkedList {
             sList.removelast();
 
         }
-    }
-}
+    }//main method ends
+}//class ends
