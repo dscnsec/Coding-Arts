@@ -3,42 +3,44 @@ using namespace std;
 const int INF=1e9;
 
 //Flyod Warshall Algo to create all pair shortest path matrix
-void minDistances(vector<vector<int>> &cm)
+void minDistances(vector<vector<int>> &cost_matrix)
 {
-    int n = cm.size();
+    int size = cost_matrix.size();
+    // i,j,k are the three control variables to three respective loops
     int k, i, j;
-    for(k=0; k<n; k++)
+    for(k=0; k<size; k++)
     {
-        for(i=0; i<n; i++)
+        for(i=0; i<size; i++)
         {
-            for(j=0; j<n; j++)
+            for(j=0; j<size; j++)
             {
-                cm[i][j] = min(cm[i][j], (cm[i][k] + cm[k][j]));
+                cost_matrix[i][j] = min(cost_matrix[i][j], (cost_matrix[i][k] + cost_matrix[k][j]));
             }
         }
     }
 }
 
 //function to display optimal route
-void route(vector<vector<int>> &cost, int n)
+void route(vector<vector<int>> &cost_matrix, int size)
 {
-    vector<int> vis(n+1, 0);
-    vis[0]=1;
-    int rem=n, minCafe=0, minDist, cafe=0;
+    vector<int> visited(size+1, 0);
+    visited[0]=1;
+    int limit=size, nearest_cafe=0, minimum_distance, cafe=0;
     cout<<0<<" "<<0<<"\n";
-    while(rem--)
+    while(limit--)
     {
-        minDist=INF;
-        for(int i=0; i<=n; i++)
+        minimum_distance=INF;
+        for(int i=0; i<=size; i++)
         {
-            if(vis[i]==0 && (cost[minCafe][i]<minDist))
+            if(visited[i]==0 && (cost_matrix[nearest_cafe][i]<minimum_distance))
             {
-                minDist=cost[minCafe][i];
+                minimum_distance=cost_matrix[nearest_cafe][i];
                 cafe=i;
             }
-        }minCafe=cafe;
-        vis[minCafe]=1;
-        cout<<minCafe<<" "<<minDist<<"\n";
+        }
+        nearest_cafe=cafe;
+        visited[nearest_cafe]=1;
+        cout<<nearest_cafe<<" "<<minimum_distance<<"\n";
     }
 }
 
@@ -47,24 +49,24 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int n;
-    cin>>n;
-    vector<vector<int>> cost(n+1,vector<int>(n+1,INF));
-    for(int i=0; i<=n; i++)
+    int size;
+    cin>>size;
+    vector<vector<int>> cost_matrix(size+1,vector<int>(size+1,INF));
+    for(int i=0; i<=size; i++)
     {
-        cost[i][i]=0;
+        cost_matrix[i][i]=0;
     }
-    int edges = n*(n+1)/2;
+    int edges = size*(size+1)/2;
     for(int i=0; i<edges; i++)
     {
-        int u, v, w;
-        cin>>u>>v>>w;
-        cost[u][v]=cost[v][u]=w;
+        int start, end, cost;
+        cin>>start>>end>>cost;
+        cost_matrix[start][end]=cost_matrix[end][start]=cost;
     }
     //form the all pair shortest path matrix
-    minDistances(cost);
+    minDistances(cost_matrix);
     //display optimal route
-    route(cost, n);
+    route(cost_matrix, size);
     return 0;
 }
 // Time Complexity -  O(V^3)+O(V^2) =  O(V^3)
