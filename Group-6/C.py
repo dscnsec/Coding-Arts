@@ -24,7 +24,8 @@ def tour(dist):
 	print(0,0)
 	seen = set()
 	seen.add(0)
-	for i in range(n - 1):
+	cnt,i = n,0
+	while cnt > 1:
 		cur,idx = inf,None
 		for j in range(n):
 			if j in seen or dist[i][j] == 0:
@@ -34,6 +35,8 @@ def tour(dist):
 				idx = j
 		seen.add(idx)
 		print(idx,cur)
+		i = idx
+		cnt -= 1
 
 if __name__ == "__main__":
 	sys.stdin = open("input.txt", "r")	
