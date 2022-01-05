@@ -12,10 +12,17 @@ import sys
 from collections import defaultdict
 
 def getMapping(n,prerequisite):
-    preq = []
+    cnt = 0
+    seen = defaultdict(int)
     for x,y in prerequisites:
-        preq.append([ord(x)-ord('a'),ord(y)-ord('a')])
-    return preq
+        if x not in seen:
+            seen[x] = cnt
+            cnt += 1
+        if y not in seen:
+            seen[y] = cnt
+            cnt += 1
+    nees = dict((v, k) for k, v in seen.items())
+    return seen,nees
 
 def findTour(n, preq):
     graph = defaultdict(list)
@@ -50,10 +57,13 @@ if __name__ == '__main__':
             prerequisites.append(prerequisite)
         except EOFError:
             break
-    preq = getMapping(n, prerequisite)
+    refer,rev = getMapping(n, prerequisite)
+    preq = []
+    for x,y in prerequisites:
+        preq.append([refer[x], refer[y]])
     tour = findTour(n, preq)
     if not tour:
         print(-1)
     else:
         for city in tour:
-            print(chr(city + ord('a')), end=' ')
+            print(rev[city], end=' ')
