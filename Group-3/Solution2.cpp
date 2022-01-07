@@ -6,24 +6,24 @@ using namespace std;
 int main()
 {
     fast;
-    ll n, m;
-    cin>>n>>m;
-    unordered_map<string,vector<string>> mp;
-    string a,b,s;
-    for(ll i=0; i<m; i++)
+    ll number_users, number_connections;
+    cin>>number_users>>number_connections;
+    unordered_map<string,vector<string>> userList;
+    string follower,user,query_user;
+    for(ll i=0; i<number_connections; i++)
     {
-        cin>>a>>b;
-        mp[b].push_back(a);
+        cin>>follower>>user;
+        userList[user].push_back(follower);
     }
-    while(cin>>s)
+    while(cin>>query_user)
     {
-        cout<<mp[s].size()<<"\n";
-        for(string name:mp[s])
+        cout<<userList[query_user].size()<<"\n";
+        for(string name:userList[query_user])
             cout<<name<<" ";
-        if(mp[s].size())
+        if(userList[query_user].size())
             cout<<"\n";
     }
     return 0;
 }
-// Time Complexity - O(n) in worst case.
+// Time Complexity - O(n*q) in worst case, where 'q' is the number of queries
 // Space COmplexity - O(n*n) in worst case.

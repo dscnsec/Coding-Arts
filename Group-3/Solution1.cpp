@@ -2,38 +2,38 @@
 using namespace std;
 #define ll long long
 
-ll findMedian(vector<ll> &A, vector<ll> &B)
+ll findMedian(vector<ll> &pileA, vector<ll> &pileB)
 {
-    ll n=A.size(),m=B.size();
-    ll k=(n+m-1)/2;
-    ll l=0,r=min(k,n);
-    while(l<r)
+    ll size_pile_A = pileA.size(), size_pile_B = pileB.size();
+    ll totalMid=(size_pile_A+size_pile_B-1)/2;
+    ll lower=0, upper=min(totalMid,size_pile_A);
+    while(lower<upper)
     {
-        ll midA=(l+r)/2;
-        ll midB=k-midA;
-        if(A[midA]<B[midB])
-            l =midA+1;
+        ll midA=(lower+upper)/2;
+        ll midB=totalMid-midA;
+        if(pileA[midA]<pileB[midB])
+            lower =midA+1;
         else
-            r=midA;
+            upper=midA;
     }
-    return max(l>0?A[l-1]:INT_MIN,k-l>=0?B[k-l]:INT_MIN);
+    return max(lower>0?pileA[lower-1]:INT_MIN,totalMid-lower>=0?pileB[totalMid-lower]:INT_MIN);
 }
 
 int main()
 {
-    ll n,m;
-    cin>>n;
-    vector<ll> A(n);
-    for(ll i=0;i<n;i++)
-        cin>>A[i];
-    cin>>m;
-    vector<ll> B(m);
-    for(ll i=0;i<m;i++)
-        cin>>B[i];
-    if(n>m)
-    cout<<findMedian(B,A);
+    ll size_pile_A, size_pile_B;
+    cin>>size_pile_A;
+    vector<ll> pileA(size_pile_A);
+    for(ll i=0; i<size_pile_A; i++)
+        cin>>pileA[i];
+    cin>>size_pile_B;
+    vector<ll> pileB(size_pile_B);
+    for(ll i=0; i<size_pile_B; i++)
+        cin>>pileB[i];
+    if(size_pile_A>size_pile_B)
+    cout<<findMedian(pileB,pileA);
     else
-    cout<<findMedian(A,B);
+    cout<<findMedian(pileA,pileB);
     return 0;
 }
 // Time Complexity - O(log(min(n,m)))
