@@ -1,67 +1,74 @@
-//        Complexity:
+/*
+  Time Complexity - O(min(log(m),log(n))
+  Space Complexity - O(1)
+*/
 
-//        We traverse both the arrays of size n and m respectively and add the smaller element in the third array.
-//        In the end, we copy the rest of the elements from arr1[ ] or arr2[ ]. So time complexity is:
-//        Time Complexity : O(n + m)
+import java.util.*;
 
-//        Since we are taking an extra array arr3[ ], it will take space O(n+m), it will have space complexity of:
-//        Auxiliary Space : O(n + m)
-
-
-import java.util.Scanner;
-
-class birthdaySurprise {
+public class BS{
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int pile1[]=new int[n];
+        int n = sc.nextInt();
 
-        for(int i=0;i<n;i++) {
-            pile1[i] = sc.nextInt();
+        int[] PileA = new int[n];
+
+        for(int i=0;i<n;i++){
+            PileA[i] = sc.nextInt();
         }
 
-        int m=sc.nextInt();
-        int pile2[]=new int[m];
+        int m = sc.nextInt();
 
-        for(int i=0;i<m;i++) {
-            pile2[i] = sc.nextInt();
+        int[] PileB = new int[m];
+
+        for(int i=0;i<m;i++){
+            PileB[i] = sc.nextInt();
         }
 
-        int[] combinedPiles = new int[n+m];
-        sorted_array(pile1, pile2, n, m, combinedPiles);
-
-        // Return the middle element of merged combinedPiles array
-        System.out.print(combinedPiles[combinedPiles.length/ 2]);
-
+        System.out.println(GiftBoxes(PileA,PileB));
     }
-    static void sorted_array(int[] pile1, int[] pile2, int n, int m, int[] combinedPiles){
 
-        {
-            // take three pointers at first index of each array
-            int i = 0, j = 0, k = 0;
+    static int GiftBoxes(int[] PileA, int[] PileB)
+    {
+        // Swapping to make PileA smaller
+        int n = PileA.length;
+        int m = PileB.length;
+        if (n > m)
+            return GiftBoxes(PileB, PileA);
 
-            // Traverse both pile1 and pile2
-            while (i < n && j < m)
-            {
-                // Check if current element of pile1 is smaller than current element of pile2.
-                // If true, store first element of pile1 in combinedPiles array and increment pile1 index.
-                // Else do the same with pile2
-                if (pile1[i] < pile2[j])
-                    combinedPiles[k++] = pile1[i++];
+        int start = 0;
+        int end = n;
+        int MergedArrayMid = (n + m + 1) / 2;
 
-                else
-                    combinedPiles[k++] = pile2[j++];
+        while (start <= end) {
+
+            int mid = (start + end) / 2;
+            int SizeLeftPileA = mid;
+            int SizeLeftPileB = MergedArrayMid - mid;
+
+            int PileALeft = (SizeLeftPileA > 0) ? PileA[SizeLeftPileA - 1] : Integer.MIN_VALUE;
+
+            int PileBLeft = (SizeLeftPileB > 0) ? PileB[SizeLeftPileB - 1] : Integer.MIN_VALUE;
+
+            int PileARight = (SizeLeftPileA < n) ? PileA[SizeLeftPileA] : Integer.MAX_VALUE;
+
+            int PileBRight = (SizeLeftPileB < m) ? PileB[SizeLeftPileB] : Integer.MAX_VALUE;
+
+            // check if correct partition is done
+            if (PileALeft <= PileBRight && PileBLeft <= PileARight) {
+                if ((m + n) % 2 == 0)
+                    return (Math.max(PileALeft, PileBLeft)
+                            + Math.min(PileARight, PileBRight))
+                            / 2;
+                return Math.max(PileALeft, PileBLeft);
             }
-
-            // Store remaining elements of pile1 in combinedPiles array
-            while (i < n)
-                combinedPiles[k++] = pile1[i++];
-
-            // Store remaining elements of pile2 in combinedPiles array
-            while (j < m)
-                combinedPiles[k++] = pile2[j++];
+            else if (PileALeft > PileBRight) {
+                end = mid - 1;
+            }
+            else
+                start = mid + 1;
         }
+        return 0;
     }
 }
