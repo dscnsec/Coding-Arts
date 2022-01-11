@@ -1,6 +1,9 @@
-//Time complexity is n+m.
+//Time complexity: O(n+m)
 //n=Number of users.
 //m=number of connections.
+
+// Space Complexity: O(1)
+
 import java.util.*;
 
 class ProblemStatement2{
