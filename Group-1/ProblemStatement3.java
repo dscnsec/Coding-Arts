@@ -1,5 +1,8 @@
-//Time complexity=n^3,
-//n is the number of cafeterias.
+// Time complexity: O(V^3)
+// V is the number of cafeterias.
+
+// Space complexity: O(V^2)
+
 import java.util.*;
 class ProblemStatement3 {
 
